@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 
-bool canweplace(int stalls[],int distance,int k,int n){      //here distanceis mid of the array
+bool canweplace(int stalls[],int distance,int k,int n){      //here distance is mid of the array
     int count=1, position=stalls[0];                        //position is position of last cow
     for(int i=0; i<n; i++){
         if(position+distance <= stalls[i]){
